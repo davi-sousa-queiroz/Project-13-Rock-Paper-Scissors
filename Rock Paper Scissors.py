@@ -106,7 +106,5 @@ def main():
             print("YOU HAVE BEEN ELIMINATED 😵\n")
             print(f"Your final stats:\n\n Total wins: {wins}\n Total loses: {loses}\n Total ties: {ties} ")
             print("\nThank's for playing!")
-
-
 if __name__ == '__main__':
     main()

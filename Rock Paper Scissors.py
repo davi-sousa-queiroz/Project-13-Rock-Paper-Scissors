@@ -82,7 +82,7 @@ def calculate_winner(player_move, computer_move):
         tie()
     elif player_move == 'Rock' and computer_move == 'Paper':
         lose()
-    elif player_move == 'r' and computer_move == 's':
+    elif player_move == 'Rock' and computer_move == 'Scissors':
         win()
     elif player_move == 'p' and computer_move == 'r':
         win()

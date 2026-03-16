@@ -66,5 +66,4 @@ def calculate_winner(player_move, computer_move):
         lose()
     else:
         print('GAME BUG IN CALCULATE WINNER FUNCTION')
-
 # ----------- MAIN LOOP -------------

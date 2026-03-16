@@ -54,6 +54,10 @@ def win():
     global wins
     print("You won!")
     wins += 1
+    print(f"\nTotal wins: {wins}")
+    print(f"Total loses: {loses}")
+    print(f"Total ties: {ties}")
+    time.sleep(1)
 def lose():
     global loses
     print("You lost!")

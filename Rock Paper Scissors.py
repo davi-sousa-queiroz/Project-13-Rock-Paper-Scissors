@@ -90,7 +90,7 @@ def calculate_winner(player_move, computer_move):
         lose()
     elif player_move == 'Scissors' and computer_move == 'Paper':
         win()
-    elif player_move == 's' and computer_move == 'r':
+    elif player_move == 'Scissors' and computer_move == 'Rock':
         lose()
     else:
         print('GAME BUG IN CALCULATE WINNER FUNCTION')

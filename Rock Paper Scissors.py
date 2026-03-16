@@ -7,6 +7,9 @@ symbol_values = {
     'paper' : 2,
     'scissors' : 3
 }
+your_hand = []
+
+opponent_hand = []
 
 wins = 0
 

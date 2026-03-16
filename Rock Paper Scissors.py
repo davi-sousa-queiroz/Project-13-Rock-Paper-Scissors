@@ -30,26 +30,4 @@ def welcome():
     print("Good Luck!\n")
     time.sleep(1)
 
-def player_move():
-    your_move = input("What's your move: (r)ock (p)aper or (s)cissors\n>>").lower()
-    if your_move == 'r':
-        your_hand.append(your_move)
-    elif your_move == 'p':
-        your_hand.append(your_move)
-    elif your_move == 's':
-        your_hand.append(your_move)
-    else:
-        print("Invalid move! Try again.")
-
-def computer_move():
-    computer_move = random.choice(your_hand)
-    if computer_move == 'r':
-        opponent_hand.append(computer_move)
-    elif computer_move == 'p':
-        opponent_hand.append(computer_move)
-    elif computer_move == 's':
-        opponent_hand.append(computer_move)
-    else:
-        print("ERROR: COMPUTER MOVE BUG")
-
 # ----------- MAIN LOOP -------------

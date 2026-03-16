@@ -11,7 +11,6 @@ def welcome():
     print("===== ROCK  PAPER  SCISSORS =====")
     print("=================================\n")
     time.sleep(1)
-
     print("Welcome to Rock Paper Scissors!\n")
     time.sleep(1)
     print("Reach 5 wins to become the rock paper scissors champion! 🏆\n")

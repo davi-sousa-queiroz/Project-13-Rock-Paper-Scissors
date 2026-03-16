@@ -1,5 +1,6 @@
 # ------------ IMPORTS --------------
-
+import random
+import time
 # ----------- VARIABLES -------------
 
 # ----------- FUNCTIONS -------------

@@ -43,8 +43,6 @@ def player_move():
         your_hand.append(your_move)
     elif your_move == 's':
         your_hand.append(your_move)
-    elif your_move == 'q':
-        your_hand.append(your_move)
     else:
         print("Invalid move! Try again.")
 

@@ -16,8 +16,6 @@ wins = 0
 loses = 0
 
 ties = 0
-
-score = 0
 # ----------- FUNCTIONS -------------
 def welcome():
     print("=================================")

@@ -1,7 +1,7 @@
 # ------------ IMPORTS --------------
 import random
 import time
-# ----------- VARIABLES -------------
+# --------- GAME VARIABLES ----------
 symbol_values = {
     'rock' : 1,
     'paper' : 2,

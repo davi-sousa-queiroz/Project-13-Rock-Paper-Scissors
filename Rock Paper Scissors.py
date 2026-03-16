@@ -8,6 +8,11 @@ symbol_values = {
     'scissors' : 3
 }
 
+wins = 0
+
+loses = 0
+
+score = 0
 # ----------- FUNCTIONS -------------
 
 # ----------- MAIN LOOP -------------

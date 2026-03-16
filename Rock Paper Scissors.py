@@ -42,6 +42,14 @@ def player_hand():
 def computer_hand():
     hands = ['r', 'p', 's']
     computer_move = random.choice(hands)
+    if computer_move == 'r':
+        return "Rock"
+    elif computer_move == 'p':
+        return "Paper"
+    elif computer_move == 's':
+        return "Scissors"
+    else:
+        return "COMPUTER MOVE BUG IN COMPUTER HAND FUNCTION"
 def win():
     global wins
     print("You won!")

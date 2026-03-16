@@ -34,4 +34,18 @@ def welcome():
     time.sleep(2)
     print("Good Luck!\n")
     time.sleep(1)
+
+def player_move():
+    your_move = input("What's your move: (r)ock (p)aper (s)cissors or (q)uit\n>>")
+    if your_move == 'r':
+        your_hand.append(your_move)
+    elif your_move == 'p':
+        your_hand.append(your_move)
+    elif your_move == 's':
+        your_hand.append(your_move)
+    elif your_move == 'q':
+        your_hand.append(your_move)
+    else:
+        print("Invalid move! Try again.")
+
 # ----------- MAIN LOOP -------------

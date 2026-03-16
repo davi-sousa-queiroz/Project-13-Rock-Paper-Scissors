@@ -3,7 +3,6 @@ import random
 import time
 # --------- GAME VARIABLES ----------
 wins = 0
-
 loses = 0
 ties = 0
 # ----------- FUNCTIONS -------------

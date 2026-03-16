@@ -10,7 +10,6 @@ def welcome():
     print("=================================")
     print("===== ROCK  PAPER  SCISSORS =====")
     print("=================================\n")
-    
     time.sleep(1)
 
     print("Welcome to Rock Paper Scissors!\n")

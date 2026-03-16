@@ -95,3 +95,29 @@ def calculate_winner(player_move, computer_move):
     else:
         print('GAME BUG IN CALCULATE WINNER FUNCTION')
 # ----------- MAIN LOOP -------------
+welcome()
+
+def main():
+    while wins < 5 and loses < 5:
+        player_move = player_hand()
+        print(f"\nYou play {player_move}...")
+        time.sleep(2)
+        computer_move = computer_hand()
+        print(f"\nComputer plays {computer_move}!\n")
+        time.sleep(1)
+        calculate_winner(player_move, computer_move)
+        time.sleep(1)
+        print("")
+    else:
+        if wins == 5:
+            print("YOU HAVE BECOME THE ROCK PAPER SCISSORS CHAMPION\n")
+            print(f"Your final stats:\n\n Total wins: {wins}\n Total loses: {loses}\n Total ties: {ties} ")
+            print("\nThank's for playing!")
+        else:
+            print("YOU HAVE BEEN ELIMINATED 😵\n")
+            print(f"Your final stats:\n\n Total wins: {wins}\n Total loses: {loses}\n Total ties: {ties} ")
+            print("\nThank's for playing!")
+
+
+if __name__ == '__main__':
+    main()

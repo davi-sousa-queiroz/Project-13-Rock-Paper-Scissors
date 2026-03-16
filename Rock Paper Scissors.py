@@ -36,7 +36,7 @@ def welcome():
     time.sleep(1)
 
 def player_move():
-    your_move = input("What's your move: (r)ock (p)aper (s)cissors or (q)uit\n>>")
+    your_move = input("What's your move: (r)ock (p)aper or (s)cissors\n>>").lower()
     if your_move == 'r':
         your_hand.append(your_move)
     elif your_move == 'p':

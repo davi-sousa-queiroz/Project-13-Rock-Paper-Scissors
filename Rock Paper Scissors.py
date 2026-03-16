@@ -62,6 +62,10 @@ def lose():
     global loses
     print("You lost!")
     loses += 1
+    print(f"\nTotal wins: {wins}")
+    print(f"Total loses: {loses}")
+    print(f"Total ties: {ties}")
+    time.sleep(1)
 def tie():
     global ties
     print("You tied!")

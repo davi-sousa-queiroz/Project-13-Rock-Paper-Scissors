@@ -86,7 +86,6 @@ def calculate_winner(player_move, computer_move):
         print('GAME BUG IN CALCULATE WINNER FUNCTION')
 # ----------- MAIN LOOP -------------
 welcome()
-
 def main():
     while wins < 5 and loses < 5:
         player_move = player_hand()

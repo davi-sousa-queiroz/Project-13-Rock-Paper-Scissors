@@ -46,4 +46,15 @@ def player_move():
     else:
         print("Invalid move! Try again.")
 
+def computer_move():
+    computer_move = random.choice(your_hand)
+    if computer_move == 'r':
+        opponent_hand.append(computer_move)
+    elif computer_move == 'p':
+        opponent_hand.append(computer_move)
+    elif computer_move == 's':
+        opponent_hand.append(computer_move)
+    else:
+        print("ERROR: COMPUTER MOVE BUG")
+
 # ----------- MAIN LOOP -------------

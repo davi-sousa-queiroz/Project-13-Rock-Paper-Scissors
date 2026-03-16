@@ -25,7 +25,7 @@ def welcome():
     time.sleep(1)
     print("Reach 5 wins to become the rock paper scissors champion! 🏆\n")
     time.sleep(2)
-    print("Reach 10 losses, and your eliminated! 😵\n")
+    print("Reach 5 losses, and your eliminated! 😵\n")
     time.sleep(2)
     print("Good Luck!\n")
     time.sleep(1)

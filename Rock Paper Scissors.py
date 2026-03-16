@@ -70,6 +70,10 @@ def tie():
     global ties
     print("You tied!")
     ties += 1
+    print(f"\nTotal wins: {wins}")
+    print(f"Total loses: {loses}")
+    print(f"Total ties: {ties}")
+    time.sleep(1)
 def calculate_winner(player_move, computer_move):
     global wins
     global loses

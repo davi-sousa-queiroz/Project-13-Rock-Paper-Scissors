@@ -30,7 +30,15 @@ def welcome():
     print("Good Luck!\n")
     time.sleep(1)
 def player_hand():
-    player_move = input("What's your move: (r)ock, (p)aper, or (s)cissors?\n>>")
+    player_move = input("What's your move: (r)ock, (p)aper, or (s)cissors?\n>>  ")
+    if player_move == 'r':
+        return "Rock"
+    elif player_move == 'p':
+        return "Paper"
+    elif player_move == 's':
+        return "Scissors"
+    else:
+        return "invalid move."
 def computer_hand():
     hands = ['r', 'p', 's']
     computer_move = random.choice(hands)
